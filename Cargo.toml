@@ -1,0 +1,11 @@
+[package]
+name = "satisfactory_data"
+version = "0.1.0"
+authors = ["Dylan Starink <dylan@starink.com>"]
+edition = "2021"
+license = "MIT"
+keywords = ["satisfactory", "serde"]
+description = "Satisfactory data structures"
+
+[dependencies]
+serde = { version = "1.0.192", features = ["derive"] }
